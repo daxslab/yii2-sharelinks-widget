@@ -1,15 +1,20 @@
 {
-	"name": "ijackua/yii2-sharelinks-widget",
+	"name": "daxslab/yii2-sharelinks-widget",
 	"description": "Yii2 widget for popular social networks 'share link' generation",
 	"keywords": ["share", "social", "network", "yii", "extension", "widget"],
-	"homepage": "https://github.com/iJackUA/yii2-sharelinks-widget",
+	"homepage": "https://github.com/daxslab/yii2-sharelinks-widget",
 	"type": "yii2-extension",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Evgeniy Kuzminov",
-			"email": "kyzminov@gmail.com",
-			"homepage" : "http://stdout.in"
+			"name": "Carlos C. Caballero Diaz",
+			"email": "cesar@daxslab.com",
+			"homepage" : "https://www.daxslab.com"
+		},
+		{
+			"name": "Gabriel A. López López",
+			"email": "glpz@daxslab.com",
+			"homepage" : "https://www.daxslab.com"
 		}
 	],
 	"require": {
@@ -17,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"ijackua\\sharelinks\\": ""
+			"daxslab\\sharelinks\\": ""
 		}
 	}
 }

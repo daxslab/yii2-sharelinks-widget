@@ -1,7 +1,7 @@
 yii2-sharelinks-widget
 ======================
 
-Yii2 widget for popular social networks "share link" generation
+Yii2 widget for popular social networks "share link" generation. Based on https://github.com/ijackua/yii2-sharelinks-widget.
 
 ## Supported Social Networks
 
@@ -14,13 +14,13 @@ Yii2 widget for popular social networks "share link" generation
 
 ## Installation via Composer
 add to `require` section of your `composer.json`
-`"ijackua/yii2-sharelinks-widget": "dev-master"`
+`"daxslab/yii2-sharelinks-widget": "*"`
 and run composer update
 
 ## Usage Example
 in template file use
 ~~~php
-<?php echo \ijackua\sharelinks\ShareLinks::widget(
+<?php echo \daxslab\sharelinks\ShareLinks::widget(
 	[
 		'viewName' => '@app/views/mypath/shareLinks.php'   //custom view file for you links appearance
 	]
@@ -32,7 +32,7 @@ This eaxmple uses custom icons from Fontello, but you can make it what ever you 
 Your `@app/views/mypath/shareLinks.php` file could look like
 ~~~php
 <?php
-use ijackua\sharelinks\ShareLinks;
+use daxslab\sharelinks\ShareLinks;
 use \yii\helpers\Html;
 
 /**
