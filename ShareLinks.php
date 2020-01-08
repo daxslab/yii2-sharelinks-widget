@@ -1,7 +1,7 @@
 <?php
-namespace ijackua\sharelinks;
+namespace daxslab\sharelinks;
 
-use ijackua\sharelinks\ShareLinksAssets;
+use daxslab\sharelinks\ShareLinksAssets;
 use Yii;
 use yii\helpers\ArrayHelper;
 

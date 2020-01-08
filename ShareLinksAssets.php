@@ -1,5 +1,5 @@
 <?php
-namespace ijackua\sharelinks;
+namespace daxslab\sharelinks;
 
 use Yii;
 use yii\web\AssetBundle;

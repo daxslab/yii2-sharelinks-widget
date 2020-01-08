@@ -1,5 +1,5 @@
 <?php
-use ijackua\sharelinks\ShareLinks;
+use daxslab\sharelinks\ShareLinks;
 use \yii\helpers\Html;
 
 /**
